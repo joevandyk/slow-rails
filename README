@@ -8,3 +8,4 @@ With REE 1.8.7, 'rake' runs in 7 seconds.
 
 If you want to profile it, install the ruby-prof gem and then do:
 ruby-prof `which rake` > /tmp/out
+Here is my profile output for 1.9.2: http://dl.dropbox.com/u/6607107/profile.txt
