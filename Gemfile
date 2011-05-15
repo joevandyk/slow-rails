@@ -1,6 +1,6 @@
 source "http://rubygems.org"
 
-gem "rails", '3.0.7'
+gem "rails", :git => "https://github.com/rails/rails.git", :ref => "3-0-stable"
 
 gem 'sqlite3-ruby', :require => 'sqlite3'
 gem "will_paginate", ">=3.0.pre2"

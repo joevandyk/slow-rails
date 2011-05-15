@@ -5,3 +5,6 @@ Other than the Gems and one model, this is an empty rails application.
 With Ruby 1.9.2-p180 installed with rvm, Rails takes 20 seconds to start (measured by 'rake').  Same for ruby-1.9.2-head.
 
 With REE 1.8.7, 'rake' runs in 7 seconds.
+
+If you want to profile it, install the ruby-prof gem and then do:
+ruby-prof `which rake` > /tmp/out

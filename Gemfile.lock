@@ -5,13 +5,14 @@ GIT
     rails3-generators (0.17.4)
       railties (>= 3.0.0)
 
-GEM
-  remote: http://rubygems.org/
+GIT
+  remote: https://github.com/rails/rails.git
+  revision: 849007f743f1ba0bce02f8c4650a2ceb5b70f394
+  ref: 3-0-stable
   specs:
-    abstract (1.0.0)
     actionmailer (3.0.7)
       actionpack (= 3.0.7)
-      mail (~> 2.2.15)
+      mail (~> 2.2.19)
     actionpack (3.0.7)
       activemodel (= 3.0.7)
       activesupport (= 3.0.7)
@@ -35,6 +36,24 @@ GEM
       activemodel (= 3.0.7)
       activesupport (= 3.0.7)
     activesupport (3.0.7)
+    rails (3.0.7)
+      actionmailer (= 3.0.7)
+      actionpack (= 3.0.7)
+      activerecord (= 3.0.7)
+      activeresource (= 3.0.7)
+      activesupport (= 3.0.7)
+      bundler (~> 1.0)
+      railties (= 3.0.7)
+    railties (3.0.7)
+      actionpack (= 3.0.7)
+      activesupport (= 3.0.7)
+      rake (>= 0.8.7)
+      thor (~> 0.14.4)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    abstract (1.0.0)
     arel (2.0.9)
     babosa (0.3.4)
     bcrypt-ruby (2.1.4)
@@ -120,19 +139,6 @@ GEM
       rack (>= 1.0.0)
     rack-test (0.5.7)
       rack (>= 1.0)
-    rails (3.0.7)
-      actionmailer (= 3.0.7)
-      actionpack (= 3.0.7)
-      activerecord (= 3.0.7)
-      activeresource (= 3.0.7)
-      activesupport (= 3.0.7)
-      bundler (~> 1.0)
-      railties (= 3.0.7)
-    railties (3.0.7)
-      actionpack (= 3.0.7)
-      activesupport (= 3.0.7)
-      rake (>= 0.8.7)
-      thor (~> 0.14.4)
     rake (0.8.7)
     remarkable (4.0.0.alpha4)
       rspec (>= 2.0.0.alpha11)
@@ -200,7 +206,7 @@ DEPENDENCIES
   inploy (>= 1.6.8)
   launchy
   pickle (>= 0.4.2)
-  rails (= 3.0.7)
+  rails!
   rails3-generators!
   remarkable (>= 4.0.0.alpha4)
   remarkable_activemodel (>= 4.0.0.alpha4)
